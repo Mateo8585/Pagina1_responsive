@@ -1,0 +1,686 @@
+@font-face{
+
+    font-family: 'Primera fuente';
+    src: url(../Fuente/Roboto-Medium.ttf);
+
+}
+
+@font-face{
+
+    font-family: 'Segunda fuente';
+    src: url(../Fuente/Roboto-Bold.ttf);
+
+}
+
+@font-face{
+
+    font-family: 'Tercera fuente';
+    src: url(../Fuente/Roboto-Regular.ttf);
+
+}
+
+h5{
+
+    font-family: 'Primera fuente';
+
+}
+
+h1{
+
+    font-family: 'Segunda fuente';
+
+}
+
+p{
+
+    font-family: 'Tercera fuente';
+
+}
+
+.o-containerFluid-styles{
+
+    background-color: #A1C6EA;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 2rem 0rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.o-containerLogoTitleButtonBack{
+
+    background-color: cornflowerblue;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 119rem;
+
+}
+
+.o-container-buttonBack{
+
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10rem;
+
+}
+
+.o-img-logo{
+
+    width: 2.5rem;
+
+}
+
+.o-container-logoTitleTopic{
+
+    background-color: crimson;
+
+}
+
+.o-box-logo{
+
+    background: cyan;
+    height: 3.2rem;
+    min-width: 4.6rem;
+    max-width: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.o-box-Topic{
+
+    background-color: darkgray;
+    height: 1.5rem;
+    padding: 0rem;
+    min-width: 23rem;
+
+}
+
+.o-box-appleTopic{
+
+    background-color: darkgreen;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.o-buttonback{
+
+    width: 9rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 2rem;
+    font-family: 'Primera fuente';
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+
+}
+
+.o-buttonback:hover{
+
+    color: white;
+    background-color: #B38D4D;
+    border-radius: 2rem;
+
+}
+
+/***************************************************************************************/
+
+.o-container-explicationTopic{
+
+    background-color: thistle;
+    height: 180rem;
+    width: 70rem;
+
+}
+
+.o-box-ImageTitleTopic{
+
+    background-image: url(../Imágenes/Proyectil_1Editado.png);
+    background-size: cover;
+    background-position: 4rem -7rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    padding: 2rem 0rem 0rem 1rem;
+
+}
+
+.o-container-titleProyectil{
+
+    background-color: violet;
+    height: 3rem;
+    color: black;
+
+}
+
+.o-containerDefinitionTopic{
+
+    background-color: chocolate;
+    margin: 3.5rem -1rem 0rem -1rem;
+    text-align: justify;
+
+}
+
+.o-containerGraphicTopic{
+
+    background-color: cornflowerblue;
+    margin: 2rem -1rem 0rem -1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-img-Graphic{
+
+    width: 40rem;
+
+}
+
+.o-containerTitleSimulator{
+
+    background-color: crimson;
+    margin: 3rem -1rem 0rem -1rem;
+
+}
+
+.o-box-explicationSimulator{
+
+    background-color: #A1C6EA;
+    margin: 1rem -1rem 0rem -1rem;
+    padding: 1rem 1rem 0rem 1rem;
+    text-align: justify;
+
+}
+
+.o-container-simulator{
+
+    background-color: darkcyan;
+    margin: 4rem -1rem 0rem -1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-box-simulatorTopic{
+
+    width: 50rem;
+    height: 33rem;
+    border: none
+
+}
+
+.o-container-titleEquations{
+
+    background-color: darkgoldenrod;
+    margin: 4rem -1rem 0rem -1rem;
+
+}
+
+.o-box-imgEquations{
+
+    background-color: darkgreen;
+    height: 4rem;
+    margin: 3.5rem -1rem 0rem -1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.o-container-PointImageEquation{
+
+    background-color: limegreen;
+    height: 3rem;
+
+}
+
+.o-img-point{
+
+    width: 1rem;
+
+}
+
+.o-img-equation1{
+
+    width: 10rem;
+
+}
+
+.o-containerPoint{
+
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+
+}
+
+.o-containerImageEquation{
+
+    background-color: darksalmon;
+    height: 2rem;
+    padding: 0rem;
+    display: flex;
+    align-items: center
+
+}
+
+.o-box-ImgPoint{
+
+    background-color: darkseagreen;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.o-containerExampleTopic{
+
+    background-color: darkslateblue;
+    margin: 4rem -1rem 0rem -1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-box-explicationExample{
+
+    background-color: #F0EEEE;
+    height: 46rem;
+    border-radius: 1rem;
+    padding: 3rem 4rem 0rem 4rem;
+    text-align: justify;
+    box-shadow: 0px 2px 11px 0px #c2c2c2;
+
+}
+
+.o-img-exampleBall{
+
+    width: 36rem;
+    border-radius: 1rem;
+
+}
+
+.o-box-imgaExample{
+
+    background-color: dodgerblue;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-buttonSolution{
+
+    background-color: firebrick;
+    margin: 1rem -1rem 0rem -1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.o-buttonSolution{
+
+    width: 9rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #B38D4D;
+    border-radius: 0.4rem;
+    font-family: 'Primera fuente';
+    font-size: 1.4rem;
+    transition: 0.3s;
+
+}
+
+.o-buttonSolution:hover{
+
+    background-color:#B38D4D;
+    color: white;
+
+}
+
+.o-buttonExercises{
+
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: #A1C6EA;
+    border-radius: 0.5rem;
+    font-family: 'Segunda fuente';
+    font-size: 1.3rem;
+    transition: 0.3s;
+
+}
+
+.o-buttonExercises:hover{
+
+    background-color: #6C9EFF;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.2);
+    transform : translateY(-0.3rem);
+
+}
+
+.o-containerTextButtonExercise{
+
+    background-color: forestgreen;
+    margin: 5rem -1rem 0rem -1rem;
+    height: 3rem;
+
+}
+
+.o-textStarExercises{
+
+    background-color: fuchsia;
+    padding: 0.7rem 0rem 0rem 0rem;
+    max-width: 10rem;
+
+}
+
+.o-box-buttonExercises{
+
+    background-color: gold;
+
+}
+
+/***************************************************************************************/
+
+@media only screen and (max-width: 760px) {
+ 
+    .o-box-Topic {
+
+        height: 1.5rem;
+        padding: 0rem;
+        min-width: 17rem;
+        padding: 0.2rem 0rem 0rem 0rem;
+   
+    }
+
+    h5{
+
+        font-size: 1rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+ 
+    .o-box-appleTopic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ButtonBack {
+
+        display: none;
+
+    }
+
+    .o-textPhysic{
+
+        visibility: hidden;
+
+    }
+
+    .o-textPhysic::before{
+
+        content: "F1 - Movimiento de proyectiles";
+        visibility: visible;
+
+    }
+
+    .o-img-logo {
+        width: 3.1rem;
+    }
+
+    .o-container-explicationTopic {
+
+        width: 35rem;
+    }
+
+    .o-box-simulatorTopic {
+        width: 50rem;
+        height: 29rem;
+        border: none;
+    }
+
+    
+.o-textStarExercises{
+
+    padding: 0.7rem 0rem 0rem 0rem;
+    max-width: 8.5rem;
+
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+ 
+    .o-box-ImageTitleTopic {
+
+        background-position: 4rem -6rem;
+        height: 17rem;
+
+    }
+
+    .o-box-explicationExample {
+        height: 50rem;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+ 
+
+    .o-box-ImageTitleTopic {
+
+        background-position: 3rem -4rem;
+        height: 13rem;
+        padding: 1rem 0rem 0rem 0.5rem;
+        
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .o-box-explicationExample {
+        height: 51rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+ 
+
+    .o-box-ImageTitleTopic {
+
+        background-position: 2rem -3rem;
+        height: 10rem;
+        padding: 1rem 0rem 0rem 0.5rem;
+        
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .o-img-Graphic{
+
+        width: 30rem;
+    
+    }
+
+    .o-box-simulatorTopic {
+        width: 50rem;
+        height: 27rem;
+        border: none;
+    }
+
+    .o-box-imgEquations {
+
+        height: 14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .o-img-exampleBall {
+        width: 28rem;
+    }
+
+    .o-box-imgaExample {
+
+        height: 16rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+ 
+
+    .o-box-ImageTitleTopic {
+
+        background-position: 1rem -1rem;
+        height: 9rem;
+        padding: 1rem 0rem 0rem 0rem;
+        
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .o-container-explicationTopic {
+        width: 23rem;
+    }
+
+    .o-img-Graphic {
+        width: 21rem;
+    }
+
+    .o-box-simulatorTopic {
+        width: 50rem;
+        height: 18rem;
+        border: none;
+    }
+
+    .o-box-equations{
+
+        visibility: hidden;
+        height: 1.8rem;
+
+    }
+
+    .o-box-equations::before{
+
+        content: "Ecuaciones";
+        visibility: visible;
+
+    }
+
+    .o-box-explicationExample {
+        height: 53rem;
+    }
+
+    .o-img-exampleBall {
+        width: 17rem;
+    }
+
+    .o-box-imgaExample {
+        height: 10rem;
+    }
+
+    .o-container-buttonSolution {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+.o-textStarExercises{
+
+    padding: 0.7rem 0rem 0rem 0rem;
+    max-width: 8.5rem;
+
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+ 
+
+    .o-box-ImageTitleTopic {
+
+        background-position: 1rem -1rem;
+        height: 9rem;
+        padding: 1rem 0rem 0rem 0rem;
+        
+    }
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    .o-container-explicationTopic {
+        width: 22rem;
+    }
+
+    .o-img-Graphic {
+        width: 21rem;
+    }
+
+    .o-box-simulatorTopic {
+        width: 50rem;
+        height: 18rem;
+        border: none;
+    }
+
+    .o-box-explicationExample {
+        height: 53rem;
+    }
+
+    .o-img-exampleBall {
+        width: 16rem;
+    }
+
+    .o-box-imgaExample {
+        height: 10rem;
+    }
+
+    .o-container-buttonSolution {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .o-textStarExercises{
+
+        padding: 0.7rem 0rem 0rem 0rem;
+        max-width: 8.5rem;
+
+     }
+
+}
